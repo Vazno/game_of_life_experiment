@@ -7,7 +7,8 @@ Let's take a look at this 2d matrix.
 - Red - Adjacent Cells
 - Blue - Traversal Path
 - Yellow - Current Cell
-<img src="https://github.com/Vazno/game_of_life_experiment/assets/96925396/7daed9ac-d206-4c4e-b988-87be381be026">
+<img src="https://github.com/Vazno/game_of_life_experiment/assets/96925396/ef4dc892-85ee-4a2c-ba02-23679070112f">
+
 
 Every path in the matrix lead back to their starting point, forming closed loops, the grid of cells is wrapped around on itself so that cells on the edge of the grid are connected to cells on the opposite edge. For instance:
 - If you move from 44 to bottom-right: `44` -> `11` -> `22` -> `33` -> `44`.
